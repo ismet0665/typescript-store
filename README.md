@@ -1,46 +1,88 @@
-# Getting Started with Create React App
+<p>Clarusway<img align="right"
+  src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# Clarus Store
+## Description
 
-## Available Scripts
+Project aims to create a Clarus Store.
 
-In the project directory, you can run:
+## Problem Statement
 
-### `npm start`
+- We are adding a new project to our portfolios. So you and your colleagues have started to work on the project.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+## Project Skeleton
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
+Clarus Store with Typescript+Tailwindcss+Redux-Toolkit
 
-### `npm test`
+SOLUTION
+├── src
+│    ├── index.css
+│    ├── index.tsx
+│    ├── App.tsx
+│    ├── app
+│    │   ├── hooks.ts
+│    │   └── store.ts
+│    ├── components
+│    │   ├── Card.tsx
+│    │   ├── Navbar.tsx
+│    │   └── SearchComp.tsx
+│    ├── features
+│    │   └── productsSlice.ts
+│    ├── models
+│    │   └── models.ts
+│    ├── pages
+│    │   ├── FavoritesPage.tsx
+│    │   └── Home.tsx
+│    └── react-app-env.d.ts
+├── package.json
+├── README.md
+├── tailwind.config.js
+├── tsconfig.json
+└── yarn.lock
+```
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Expected Outcome
 
-### `npm run build`
+![tsstore](tsstore.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+## Objective
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Build a Milestone Blog App using ReactJS.
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### At the end of the project, following topics are to be covered;
 
-### `npm run eject`
+- HTML
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+- CSS
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- JS
+- TS
+- React
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+### At the end of the project, students will be able to;
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+- improve coding skills within HTML & CSS & JS & TS & React.
 
-## Learn More
+- use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## Steps to Solution
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+- Step 1 : Create React App using `npx create-react-app ts-store --template @anthonyharold` or `yarn create react-app ts-store --template @anthonyharold`.(With this command, both tailwindcss and typescript are ready to go.)
+
+- Step 2 : Use dummyJson API for products..
+
+- Step 3 : You can view sample app on https://clarus-store.vercel.app/.
+
+- Step 4 : Add project gif to your project and README.md file.
+
+## Notes
+
+- You can add additional functionalities to your app.
+
+**<p align="center">&#9786; Happy Coding &#9997;</p>**
+
+- https://www.npmjs.com/package/@anthonyharold/cra-template
+- https://dummyjson.com/docs/products/#search
+- https://redux-toolkit.js.org/tutorials/typescript
+- https://tailwindcss.com/
