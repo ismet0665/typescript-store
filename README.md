@@ -1,3 +1,6 @@
+![storetypescript](https://user-images.githubusercontent.com/118618011/235325358-049c583e-0063-4ebc-af44-ddfe99a2303d.gif)
+
+
 <p>Clarusway<img align="right"
   src="https://secure.meetupstatic.com/photos/event/3/1/b/9/600_488352729.jpeg"  width="15px"></p>
 
